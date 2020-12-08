@@ -32,6 +32,15 @@
 * Once it finds the red tile, it sounds and alarm indicating that goal tile is found and then it turns on its sonar sensor and does a 360-degree scan to identify the angle at which the can/object is closest to it, that indicated that at closest distance from the can/object the robot will be facing directly towards the can/object.
 * Once the robot aligns with the can/object it goes ahead and pushes the can/object off the tile.
 
+
+## Hardware Design
+* First consideration while designing the robot was to keep the robot compact as a smaller robot would provide better fault tolerance by requiring less wide path.
+* Then I choose two of the wide tires as they would provide good amount of traction on the ground due to more surface area and prevent the robot from skidding.
+* Then I had to add the color sensor to detect the wall and goal. The color sensor had to be as close to the ground as possible without touching the ground to detect accurately.
+* Also installed gyro sensor to be able to make more precise turns at required angles. Tried to place the gyro sensor in the middle as much as possible of the robot so that it aligns as closely as possible with the rotation axis of the robot and gives more accurate reading on rotation.
+* Also placed the sonar sensor to detect and align the robot correctly with the tin can on the goal to push it off the goal tile.
+* Added an extension in front of the robot so that it can easily grip the object/can on the goal and clear it of the tile.
+
 <img src="images/robot_picture1.png" width="256">
 
 <img src="images/robot_picture2.png" width="256">
