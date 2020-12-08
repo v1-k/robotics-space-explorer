@@ -11,5 +11,5 @@
 ### Ball Bouncing Algorithm
 * As to cover the whole maze without being stuck in loops we needed some level of randomness in our algorithm design we decided on imitating the path of a ball bouncing of the walls for our robot.
 * If a ball was to bounce of the walls of the maze without losing any of its speed and energy due to collisions with walls it should in theory cover the whole maze if it bounces of at the correct angle.
-<img src="images/ball_bounce.png" width="96">
-* As seen in the above the diagram the robot indicated with the black dot will enter the room, explore the room for the goal and then exit the room to explore someplace else if the goal is not found.
+* As seen in the image below the diagram the robot indicated with the black dot will enter the room, explore the room for the goal and then exit the room to explore someplace else if the goal is not found.
+<img src="images/ball_bounce.png" width="256">
