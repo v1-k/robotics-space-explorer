@@ -44,3 +44,10 @@
 <img src="images/robot_picture1.png" width="256">
 
 <img src="images/robot_picture2.png" width="256">
+
+
+# Final run test
+<video width="320" height="240" controls>
+  <source src="Demo/successful_run.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
