@@ -1,4 +1,4 @@
-# Room Explorer and Object finder Robot
+# Behavior-based Object Clearance Robot
 
 ## Software Design
 
